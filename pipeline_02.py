@@ -72,7 +72,7 @@ def salvar_no_postgres(df, tabela):
     df.to_sql(tabela, con=engine, if_exists='append', index=False)
 
 def pipeline():
-    url_pasta = 'https://drive.google.com/drive/folders/19flL9P8UV9aSu4iQtM6Ymv-77VtFcECP'
+    url_pasta = 'Insira o caminho do data source no google drive'
     diretorio_local = './pasta_gdown'
 
     # baixar_pasta_google_drive(url_pasta, diretorio_local)
